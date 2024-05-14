@@ -46,12 +46,14 @@ def hello(name):
 ###Function call###
 set_abs_info(parameter='Front_Speed',value=100)
 wait(2)
-get_abs_info(parameter='Front_Speed')
+#get_abs_info(parameter='Front_Speed')
 set_abs_info(parameter='Front_Speed',value=25)
 wait(2)
-get_abs_info(parameter='Front_Speed')
-wait(2)
+#get_abs_info(parameter='Front_Speed')
+#wait(2)
 get_IC_info(parameter='IndicatedVehSpeed')
+wait(2)
+set_abs_info(parameter='Front_Speed',value=0)
 
 #print(type(a))
 
